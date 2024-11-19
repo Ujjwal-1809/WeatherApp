@@ -1,4 +1,4 @@
-🌦️ Weather App
+🌦️ Weather App - 
 A responsive and user-friendly Weather App built using React.js, Tailwind CSS, and CSS.
 This application provides real-time weather updates for any location, with a clean and intuitive design to enhance the user experience.
 
