@@ -1,0 +1,69 @@
+
+*{
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  color: rgb(18, 2, 71);
+}
+
+#mainApp{
+  background: linear-gradient(to top, #f3b07c, #fcd283);
+box-shadow: 1px 1px 20px 0px rgba(42, 42, 42, 0.721);
+margin-top: 30px;
+}
+#error{
+  box-shadow: 1px 1px 20px 0px rgba(42, 42, 42, 0.721);
+
+}
+input{
+  border: 1.8px solid darkblue;
+}
+
+
+#temp{
+  text-shadow: 2px 1px 4px rgb(66, 65, 65);
+}
+
+#humidity{
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+#wind{
+  background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+input::placeholder{
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  color: rgb(18, 2, 71);
+  font-size: 22px;
+}
+
+/* media query */
+
+@media (max-width: 629px) {
+
+  #container{
+    justify-content: flex-start;
+  }
+  #mainApp{
+    height: 620px;
+    width: 320px;
+  }
+
+  input{
+    z-index: 2;
+    height: 45px !important ;
+  }
+
+img{
+  width: 100% !important;
+  height: 200px;
+  position: relative;
+  
+}
+
+button{
+  margin-top: 8px !important;
+}
+}
