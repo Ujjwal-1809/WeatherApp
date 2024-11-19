@@ -1,8 +1,15 @@
-# React + Vite
+🌦️ Weather App
+A responsive and user-friendly Weather App built using React.js, Tailwind CSS, and CSS.
+This application provides real-time weather updates for any location, with a clean and intuitive design to enhance the user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Features:
+🌍 Search for real-time weather updates by city name.
+📊 Display of temperature, weather conditions, and other details.
+💻 Fully responsive and optimized for all devices.
+🎨 Styled with Tailwind CSS for modern design and quick customization.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Technologies Used:
+React.js: For building dynamic and interactive user interfaces.
+Tailwind CSS: For utility-first styling and responsive designs.
+CSS: For additional customizations and fine-tuning.
+API integration: Open Weather external API.
